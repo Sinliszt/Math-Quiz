@@ -1,0 +1,73 @@
+body{
+    background: url("background.png");
+}
+.player1{
+    background: lightblue;
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
+    margin-left: 800px;
+    color: rgb(4, 4, 84)
+}
+.player2{
+    background: lightblue;
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
+    margin-left: 800px;
+    color: rgb(4, 4, 84)
+}
+#title-head{
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 900px;
+    margin-top: 50px;
+}
+#login_button{
+    margin-left: 820px;
+    background-color: rgb(4, 4, 84)
+}
+#addition-img{
+    width:150px;
+    height: 150px;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+#subtraction-img{
+    width:200px;
+    height: 200px;
+    position: absolute;
+    top: 28%;
+    left: 30%;
+}
+#multiplication-img{
+    width:130px;
+    height: 130px;
+    position: absolute;
+    top: 55%;
+    left: 15%;
+}
+#division-img{
+    width:150px;
+    height: 150px;
+    position: absolute;
+    top: 70%;
+    left: 35%;
+}
+#player1user, #player2user{
+    border-radius: 75px;
+    border-width: 1px;
+    background-color: rgb(4, 4, 84);
+    border-color: darkblue;
+}
+#output{
+    background-color: lightblue;
+    border-radius: 15px;
+    border-top: 10px solid darkblue;
+    padding: 10px;
+    float: none;
+    text-align: center;
+}
+#player1, #player2{
+    display: inline-block;
+}

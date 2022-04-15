@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Math Quiz</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Carattere&family=Oswald&family=Roboto+Mono&family=Roboto:wght@100&family=Updock&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="quiz_game.css">
+        <script src="game_login.js"></script>
+    </head>
+    <body>
+        <h1 id="title-head"><b>Math Quiz!</b></h1>
+        <img src="addition.png" id="addition-img">
+        <img src="subtraction.png" id="subtraction-img">
+        <img src="multiplication.png" id="multiplication-img">
+        <img src="division.png" id="division-img">
+            <div class="col-lg-4 col-sm-8 col-xs-11 player1">
+                <center>
+                <h3>Player 1</h3>
+                <label>User Name: </label>
+                <input type="text" id="player1user" placeholder="Player 1 Enter" class="form-control">
+            </center>
+                <br>
+            </div>
+            <br>
+            <div class="col-lg-4 col-sm-8 col-xs-11 player2">
+                <center>
+                <h3>Player 2</h3>
+                <label>User Name: </label>
+                <input type="text" id="player2user" placeholder="Player 2 Enter" class="form-control">
+            </center>
+                <br>
+            </div>
+            <br>
+            <button style="width:30%" class="btn btn-primary" id="login_button" onclick="addUser();">Login</button>
+    </body>
+</html>
